@@ -26,6 +26,12 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
 			<string>Vibration Settings for Mute</string>
 		</dict>
 		<dict>
@@ -51,7 +57,7 @@
 				<string>HARD</string>
 				<string>RAPID</string>
 				<string>LONG</string>
-				<string>NONE</string>
+				<string>DOUBLE</string>
 			</array>
 			<key>alignment</key>
 			<string>1</string>
@@ -83,16 +89,22 @@
 			</array>
 			<key>validTitles</key>
 			<array>
-				<string>TADA</string>
-				<string>DUDU</string>
-				<string>SHAKE</string>
-				<string>BOOP</string>
+				<string>ICON</string>
+				<string>KBD</string>
+				<string>LARGE</string>
+				<string>SMALL</string>
 				<string>NONE</string>
 			</array>
 			<key>alignment</key>
 			<string>1</string>
 			<key>PostNotification</key>
 			<string>com.nahtedetihw.mutevibes/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
 		</dict>
 		<dict>
 			<key>cellClass</key>
@@ -134,7 +146,15 @@
 			<key>footerAlignment</key>
 			<string>1</string>
 			<key>footerText</key>
-			<string>MuteVibes 1.0</string>
+			<string>MuteVibes 1.1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+			<key>footerText</key>
+			<string>ENSURE YOUR RINGER VOLUME IS TURNED UP IN SETTINGS</string>
 		</dict>
 		<dict>
 			<key>cell</key>
